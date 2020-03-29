@@ -2,8 +2,8 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_mvvm/src/utils/app_colors.dart';
-import 'package:flutter_mvvm/src/utils/connectivity.dart';
+import 'package:flutter_boiler_plate/src/utils/app_colors.dart';
+import 'package:flutter_boiler_plate/src/utils/connectivity.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:progress_dialog/progress_dialog.dart';
 

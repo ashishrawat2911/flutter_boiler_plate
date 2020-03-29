@@ -7,7 +7,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:auto_route/auto_route.dart';
-import 'package:flutter_mvvm/src/view/screens/movieScreen.dart';
+import 'package:flutter_boiler_plate/src/view/screens/movieScreen.dart';
 
 class Router {
   static const movieScreen = '/movie-screen';

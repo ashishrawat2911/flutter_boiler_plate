@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_mvvm/src/model/network_model/response/movie_response.dart';
-import 'package:flutter_mvvm/src/utils/utils.dart';
-import 'package:flutter_mvvm/src/view/base_screen_mixin.dart';
-import 'package:flutter_mvvm/src/view/base_view.dart';
-import 'package:flutter_mvvm/src/view/common/api_stream_builder.dart';
-import 'package:flutter_mvvm/src/viewmodel/movie_view_model.dart';
+import 'package:flutter_boiler_plate/src/model/network_model/response/movie_response.dart';
+import 'package:flutter_boiler_plate/src/utils/utils.dart';
+import 'package:flutter_boiler_plate/src/view/base_screen_mixin.dart';
+import 'package:flutter_boiler_plate/src/view/base_view.dart';
+import 'package:flutter_boiler_plate/src/view/common/api_stream_builder.dart';
+import 'package:flutter_boiler_plate/src/viewmodel/movie_view_model.dart';
 
 class MovieScreen extends StatefulWidget {
   @override

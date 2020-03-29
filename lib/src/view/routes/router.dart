@@ -1,5 +1,5 @@
 import 'package:auto_route/auto_route_annotations.dart';
-import 'package:flutter_mvvm/src/view/screens/movieScreen.dart';
+import 'package:flutter_boiler_plate/src/view/screens/movieScreen.dart';
 
 /*
 * Run this command in terminal

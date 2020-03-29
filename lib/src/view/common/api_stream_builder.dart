@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_mvvm/src/services/network/api_response.dart';
+import 'package:flutter_boiler_plate/src/services/network/api_response.dart';
 
 typedef ApiValueWidget = Widget Function(String message);
 typedef ApiDataWidget<T> = Widget Function(T value);

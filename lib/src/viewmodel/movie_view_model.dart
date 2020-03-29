@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_mvvm/src/model/network_model/response/movie_response.dart';
-import 'package:flutter_mvvm/src/services/data/base_api_bloc.dart';
-import 'package:flutter_mvvm/src/services/repository/app_repository.dart';
+import 'package:flutter_boiler_plate/src/model/network_model/response/movie_response.dart';
+import 'package:flutter_boiler_plate/src/services/data/base_api_bloc.dart';
+import 'package:flutter_boiler_plate/src/services/repository/app_repository.dart';
 
 class MovieViewModel extends BaseApiBloc<List<Movie>> with ChangeNotifier {
   AppRepository appRepository;
@@ -10,13 +10,20 @@ class MovieViewModel extends BaseApiBloc<List<Movie>> with ChangeNotifier {
     appRepository = AppRepository();
   }
 
-  List<Movie> movies;
+  List<Movie> _movies;
+
+  List<Movie> get movies => _movies;
+
+  set movies(List<Movie> value) {
+    _movies = value;
+    notifyListeners();
+  }
 
   fetchMovieList() async {
     startLoading('Fetching Popular Movies');
     try {
-      movies = await appRepository.fetchMovieList();
-      addDataToStream(movies);
+      _movies = await appRepository.fetchMovieList();
+      addDataToStream(_movies);
     } catch (e) {
       addErrorToStream(e);
     }

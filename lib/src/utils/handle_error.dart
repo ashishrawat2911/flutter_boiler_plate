@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_mvvm/src/services/network/exceptions/app_exceptions.dart';
+import 'package:flutter_boiler_plate/src/services/network/exceptions/app_exceptions.dart';
 
 handleError(
   Exception exception, {

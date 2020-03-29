@@ -1,4 +1,4 @@
-name: flutter_mvvm
+name: flutter_boiler_plate
 description: A new Flutter project.
 
 # The following defines the version and build number for your application.
@@ -38,6 +38,7 @@ dependencies:
   timeago:
   provider:
   state_bloc: 1.0.2
+  vibrate : 0.0.4
 
 
 

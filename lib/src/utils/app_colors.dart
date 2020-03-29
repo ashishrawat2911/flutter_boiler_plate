@@ -1,6 +1,6 @@
 import 'dart:ui';
 
-import 'package:flutter_mvvm/src/utils/hex_color.dart';
+import 'package:flutter_boiler_plate/src/utils/hex_color.dart';
 
 class AppColors {
   //Todo

@@ -1,7 +1,7 @@
 //import 'package:flutter/material.dart';
-//import 'package:flutter_mvvm/src/view/base_screen_mixin.dart';
-//import 'package:flutter_mvvm/src/utils/app_colors.dart';
-//import 'package:flutter_mvvm/src/utils/assets_path.dart';
+//import 'package:flutter_boiler_plate/src/view/base_screen_mixin.dart';
+//import 'package:flutter_boiler_plate/src/utils/app_colors.dart';
+//import 'package:flutter_boiler_plate/src/utils/assets_path.dart';
 //
 //class PhoneLoginScreen extends StatefulWidget {
 //  @override
