@@ -1,0 +1,11 @@
+export 'package:flutter_boiler_plate/src/res/app_assets.dart';
+export 'package:flutter_boiler_plate/src/res/app_colors.dart';
+export 'package:flutter_boiler_plate/src/res/app_fonts.dart';
+export 'package:flutter_boiler_plate/src/res/app_keys.dart';
+export 'package:flutter_boiler_plate/src/res/app_theme.dart';
+export 'package:flutter_boiler_plate/src/res/dimens.dart';
+export 'package:flutter_boiler_plate/src/res/hex_color.dart';
+export 'package:flutter_boiler_plate/src/res/remote_config_constants.dart';
+export 'package:flutter_boiler_plate/src/res/store_urls.dart';
+export 'package:flutter_boiler_plate/src/res/strings_constants.dart';
+export 'package:flutter_boiler_plate/src/res/text_styles.dart';

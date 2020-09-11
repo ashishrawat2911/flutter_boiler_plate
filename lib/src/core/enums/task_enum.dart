@@ -1,0 +1,6 @@
+enum Task {
+  COMPLETED,
+  SCHEDULED,
+  CANCELLED,
+  CREATED,
+}

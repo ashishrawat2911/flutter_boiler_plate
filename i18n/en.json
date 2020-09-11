@@ -1,0 +1,6 @@
+{
+  "app_name": "App",
+  "version_out_dated_message": "Oops! , the app seems a bit outdated.",
+  "version_out_dated_desc": "Please update the app by downloading it from the store. It seems that we had a bug that we had to fix.",
+  "update": "Update"
+}
