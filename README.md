@@ -57,6 +57,8 @@ lib/
 # State Management 
 This project uses [flutter_bloc](https://pub.dev/packages/flutter_bloc) for state management and Api calling.
 
+![](https://raw.githubusercontent.com/felangel/bloc/master/docs/assets/cubit_architecture_full.png)
+
 ### Why bloc
 Bloc makes it easy to separate presentation from business logic, making your code fast, easy to test, and reusable.
 
@@ -70,6 +72,8 @@ When building production quality applications, managing state becomes critical.
 - develop fast and reactive apps.
 
 Bloc attempts to make state changes predictable by regulating when a state change can occur and enforcing a single way to change state throughout an entire application.
+
+![](https://raw.githubusercontent.com/felangel/bloc/master/docs/assets/cubit_flow.png)
 
 ### Learn to call api and manage the network state using [flutter_bloc](https://pub.dev/packages/flutter_bloc)
 [Network Handling using Cubit](https://github.com/ashishrawat2911/network_handling)
