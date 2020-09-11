@@ -5,7 +5,7 @@ import 'package:flutter_boiler_plate/src/core/force_update/force_update_dialog.d
 import 'package:flutter_boiler_plate/src/repository/preference_repository.dart';
 import 'package:flutter_boiler_plate/src/res/res.dart';
 import 'package:flutter_boiler_plate/src/routes/router.gr.dart';
-import 'package:flutter_boiler_plate/src/ui/screens/splash_screen.dart';
+import 'package:flutter_boiler_plate/src/ui/screens/movie_screen.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'core/force_update/force_update.dart';
@@ -80,7 +80,7 @@ class _AppState extends State<App> {
         Locale(AppLocalizations.langHindi, AppLocalizations.langHindiCountry),
       ],
       locale: locale,
-      home: SplashScreen(),
+      home: MovieScreen(),
       builder: (context, child) {
         return ScrollConfiguration(
           behavior: AppScrollBehavior(),

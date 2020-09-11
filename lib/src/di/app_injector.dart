@@ -1,3 +1,4 @@
+import 'package:flutter_boiler_plate/src/bloc/movie_cubit.dart';
 import 'package:flutter_boiler_plate/src/repository/api_repository.dart';
 import 'package:flutter_boiler_plate/src/repository/preference_repository.dart';
 import 'package:get_it/get_it.dart';
@@ -22,7 +23,9 @@ class AppInjector {
     _injector.registerLazySingleton(() => ApiRepository());
   }
 
-  static _initCubits() {}
+  static _initCubits() {
+    _injector.registerFactory(() => MovieCubit());
+  }
 
   static void _initNotifiers() {}
 
