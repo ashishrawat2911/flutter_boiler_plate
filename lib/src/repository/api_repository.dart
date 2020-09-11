@@ -14,7 +14,7 @@ class ApiRepository {
     dioClient = DioClient(AppConfigs.apiBaseUrl, dio);
   }
 
-  Future<ApiResult<List<Movie>>> triggerOtp(String _apiKey) async {
+  Future<ApiResult<List<Movie>>> fetchMovie(String _apiKey) async {
     try {
       var movieResponse = MovieResponse.fromJson(
         await dioClient.get("?api_key=$_apiKey", queryParameters: {}),
